@@ -11,11 +11,11 @@ collections:
   - name: designer
     label: Designer
     create: true
-    files:
-      - name: salon94
-        label: Salon94
-        file: site/src/data/designers.yml
-        description: Salon94 Designers
+    folder: site/src/data/designers
+    fields:
+      - name: designers
+        label: Designers
+        widget: list
         fields:
           - name: slug
             label: Slug
